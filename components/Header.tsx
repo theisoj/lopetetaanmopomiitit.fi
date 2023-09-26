@@ -2,8 +2,8 @@ import Link from "next/link"
 
 function Header() {
   return (
-    <header className="flex items-center justify-between p-6 bg-white">
-      <h1 className="font-bold text-2xl">Lopetetaan mopomiitit</h1>
+    <header className="flex items-center justify-between p-6 bg-white font-[Poppins]">
+      <h1 className="font-bold text-2xl">lopetetaanmopomiitit.fi</h1>
       <nav>
         <ul className="flex space-x-4">
           <li>

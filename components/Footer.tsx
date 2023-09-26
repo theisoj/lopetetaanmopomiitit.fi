@@ -9,7 +9,9 @@ const Footer = () => {
       className={`bg-white flex flex-col items-center justify-center p-5 shadow-lg`}
     >
       <Link className="flex items-center" href="/">
-        <h1 className="font-[Poppins] font-bold text-xl">Lopetetaan mopomiitit</h1>
+        <h1 className="font-[Poppins] font-bold text-xl">
+          lopetetaanmopomiitit.fi
+        </h1>
       </Link>
       <p className="font-[Poppins] font-normal text-md md:text-lg mt-3">
         © {new Date().getFullYear()}{" "}

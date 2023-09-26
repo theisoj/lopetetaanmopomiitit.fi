@@ -1,3 +1,5 @@
+"use client"
+
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import { client } from "@/sanity/lib/client"
@@ -14,15 +16,16 @@ export default function Home({ data }: Props) {
       <Head>
         <title>{`${data[0].title} - Lopetetaan mopomiitit`}</title>
       </Head>
+
       <Header />
 
-      <main className="min-h-screen container mx-auto bg-gray-100">
+      <main className="min-h-screen container mx-auto bg-gray-100 font-[Poppins]">
         <p className="text-xl">
           {data[0] && (
             <div
               className="flex flex-col items-start justify-center px-12 gap-4 py-6"
             >
-              <p id="tietoa" className="text-sm">
+              <p id="tietoa" className="text-lg">
                 <PortableText
                   value={data[0].content}
                   components={{
@@ -86,7 +89,7 @@ export default function Home({ data }: Props) {
                         <h6 className="text-sm font-bold my-3">{children}</h6>
                       ),
                       normal: ({ children }) => (
-                        <p className="text-sm my-3">{children}</p>
+                        <p className="text-lg my-3">{children}</p>
                       ),
                       blockquote: ({ children }) => (
                         <blockquote className="text-lg italic">
