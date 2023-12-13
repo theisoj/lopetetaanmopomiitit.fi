@@ -1,7 +1,7 @@
 {
   "name": "lopetetaan-mopomiitit",
   "appOwner": "Jesse Keskelä",
-  "version": "v2023.9.26",
+  "version": "v2023.12.13",
   "private": true,
   "scripts": {
     "dev": "next dev",

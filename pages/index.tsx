@@ -101,6 +101,7 @@ export default function Home({ data }: Props) {
                       ),
                     },
                     types: {
+                      // eslint-disable-next-line @next/next/no-img-element
                       image: ({ value }) => <img src={value.imageUrl} alt="Kuva" />,
                       callToAction: ({ value, isInline }) =>
                         isInline ? (

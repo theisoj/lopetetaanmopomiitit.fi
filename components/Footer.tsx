@@ -17,7 +17,7 @@ const Footer = () => {
         © {new Date().getFullYear()}{" "}
         <Link
           className="hover:px-2 hover:py-1 hover:my-3 hover:rounded-lg hover:bg-[#1741ef] hover:text-white hover:-sm transition-all duration-200 ease-in-out"
-          href="https://www.jessekeskela.fi"
+          href="https://jessekeskela.fi"
           target="_blank"
         >
           {appOwner}
